@@ -8,7 +8,7 @@
  --brand-color-light:#60A5FA;
  --brand-color-dark:#1D4ED8;
  --bg-color:#19243f;
- --stroke-color:#1E293B;
+ --stroke-color:#2d3e59;
  --text-color-primary:#F1F5F9;
  --text-color-secondary:#CBD5E1;
 
@@ -39,4 +39,18 @@ a:hover {
 
 h1, h2, h3 {
   font: inherit;
+}
+
+.container {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 32px;
+}
+
+/* Utility-first(classe utilitária) */
+.grid {
+  display: grid;
+}
+.grid-flow-col {
+  grid-auto-flow: column;
 }
